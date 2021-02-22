@@ -1,11 +1,5 @@
-const getTheTitles = function (books) {
-  allTitles = [];
-  for (let i = 0; i < books.length; i++) {
-    const book = books[i];
-    allTitles[i] = book.title;
-    console.log(book.title);
-  }
-  return allTitles;
+const getTheTitles = function (array) {
+  return array.map((array) => array.title);
 };
 
 module.exports = getTheTitles;
